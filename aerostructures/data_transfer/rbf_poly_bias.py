@@ -61,7 +61,9 @@ import sys
 from numpy import (sqrt, log, asarray, newaxis, all, dot, exp, eye,
                    float_, vstack, hstack, ones, transpose, zeros)
 from scipy import linalg
-from scipy._lib.six import callable, get_method_function, \
+# from scipy._lib.six import callable, get_method_function, \
+#      get_function_code
+from six import callable, get_method_function, \
      get_function_code
 
 __all__ = ['Rbf_poly_bias']
