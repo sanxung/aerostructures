@@ -4,6 +4,9 @@ Aerostructures is a Python package based on the OpenMDAO framework (https://gith
 
 The aerostructures package was initially developed by Joan Mas Colomer during a PhD thesis at ONERA and ISAE.
 
+这个地址下的可以成功，实际是按这个做的。可以仿照修改的仓库完成mid2SUPAERO的修改。zzhu主要是setup.py对numpy, openmdao, scipy等的版本限定
+https://github.com/mid2SUPAERO/aerostructures
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install aerostructures.
