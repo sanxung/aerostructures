@@ -15,4 +15,4 @@ setup(name='aerostructures',
                     'aerostructures.solvers',
 				'aerostructures.structures_dynamic',
 				'aerostructures.structures_static'],
-      install_requires=['openmdao==1.7.3'])
+      install_requires=['numpy==1.20', 'scipy==1.8.0', "python=3.8", 'openmdao==1.7.3', 'pyNastran'])
