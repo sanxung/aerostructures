@@ -9,7 +9,13 @@ The aerostructures package was initially developed by Joan Mas Colomer during a 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install aerostructures.
 
 ```bash
-pip install aerostructures
+git clone https://github.com/sanxung/aerostructures.git
+cd aerostructures
+
+conda create -n aerostructures_py38 python=3.8
+conda activate aerostructures_py38
+
+pip install . -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ## License information
